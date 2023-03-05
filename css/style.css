@@ -359,6 +359,7 @@ position: relative;
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
   touch-action: auto;
+  
 }
 .nav-header::-webkit-scrollbar{
   height: 1px;
@@ -455,9 +456,9 @@ position: relative;
 .social-for-mobile{
   display: none;
 }
-html[dir="ltr"] .nav-header .big-menu{
+/* html[dir="ltr"] .nav-header .big-menu{
   margin-inline-start: 55px;
-}
+} */
 .slide-menu {
   position: relative;
 }
