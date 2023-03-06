@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>إضافة إعلان</title>
+    <title>المسوق الإفتراضي / تسجيل دخول</title>
     <link rel="icon" href="images/fav.png" type="image/png" />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/line-awesome.min.css" />
@@ -193,7 +193,7 @@
       </li>
    
       <li class="active item-23">
-        <span class="bread-current">إضافة إعلان</span>
+        <span class="bread-current">تسجيل دخول</span>
       </li>
     </ol>
  
@@ -206,225 +206,32 @@
  
   <div class="add-adv-form">
 <h2 class="form-title">
-  إضافة إعلان
+ تسجيل دخول
 </h2>
 <form>
-  <label class="form-label">القسم</label>
-  <div class="select-wrapper-2">
-    <select>
-      <option>اختر القسم</option>
-      <option>اختر القسم</option>
-      <option>اختر القسم</option>
-      <option>اختر القسم</option>
-    </select>
+  
+  <input type="text" placeholder="اسم المستخدم" class="sign-inputs">
 
-  </div>
-
-  <label class="form-label">المنطقة</label>
-  <div class="select-wrapper-2">
-    <select>
-      <option>اختر المنطقة</option>
-      <option>اختر المنطقة</option>
-      <option>اختر المنطقة</option>
-      <option>اختر المنطقة</option>
-    </select>
-
-  </div>
-
-  <label class="form-label">المدينة</label>
-  <div class="select-wrapper-2">
-    <select>
-      <option>اختر المدينة</option>
-      <option>اختر المدينة</option>
-      <option>اختر المدينة</option>
-      <option>اختر المدينة</option>
-    </select>
-
-  </div>
-  <label class="form-label">الحي</label>
-  <input type="text">
-  <label class="form-label">الموقع على الخريطة</label>
   <div class="map-input">
-    <input type="text" class="my-input">
+    <input type="password" class="my-input" placeholder="كلمة المرور">
    <button>
-    <i class="las la-map"></i> 
+    <i class="las la-eye-slash"></i>
     </button>
   </div>
 
-  <label class="form-label">عنوان الإعلان</label>
-  <input type="text">
+  <a href="#" class="forget-pass">هل نسيت كلمة المرور ؟</a>
+  
+  <button  class="submit-adv">دخول</button>
+  <button  class="submit-adv register-btn">تسجيل حساب جديد</button>
+  
 
-  <label class="form-label">السعر</label>
-  <div class="map-input">
-    <input type="text" class="price-input">
-  <span>ريال سعودي</span>
-  </div>
-
-  <label class="form-label">صور الإعلان <span class="label-span">"حد أقصى 20 صورة" </span></label>
- 
- 
-
-  <div class="upload__box">
-    <div class="upload__btn-box">
-      <label class="upload__btn">
-        <p class="upload-images">رفع ملف</p>
-        <input type="file" multiple="" data-max_length="20" class="upload__inputfile">
-      </label>
-    </div>
-    <div class="upload__img-wrap"></div>
-  </div>
-
-  <label class="form-label extra-label-margin">المساحة</label>
-  <div class="map-input">
-    <input type="text" class="my-input">
-  <span>م<sup>2</sup></span>
-  </div>
-
-  <label class="form-label ">عرض الشارع</label>
-  <div class="map-input">
-    <input type="text" class="my-input">
-  <span>م</span>
-  </div>
-
-  <label class="form-label">الواجهة</label>
-  <input type="text">
-
-  <label class="form-label">الغرف</label>
-  <div class="select-wrapper-2">
-    <select>
-      <option>1</option>
-      <option>1</option>
-      <option>1</option>
-      <option>1</option>
-    </select>
-
-  </div>
-
-  <label class="form-label">الصالات</label>
-  <div class="select-wrapper-2">
-    <select>
-      <option>1</option>
-      <option>1</option>
-      <option>1</option>
-      <option>1</option>
-    </select>
-
-  </div>
-
-  <label class="form-label">دورات المياه</label>
-  <div class="select-wrapper-2">
-    <select>
-      <option>1</option>
-      <option>1</option>
-      <option>1</option>
-      <option>1</option>
-    </select>
-
-  </div>
-
-  <label class="form-label">المطابخ</label>
-  <div class="select-wrapper-2">
-    <select>
-      <option>1</option>
-      <option>1</option>
-      <option>1</option>
-      <option>1</option>
-    </select>
-
-  </div>
-
-  <label class="form-label">عدد المداخل</label>
-  <div class="select-wrapper-2">
-    <select>
-      <option>1</option>
-      <option>1</option>
-      <option>1</option>
-      <option>1</option>
-    </select>
-
-  </div>
-  <label class="form-label">نوعية البناء</label>
-  <input type="text">
-
-  <label class="form-label">عمر العقار</label>
-  <input type="text">
-
-  <label class="form-label">الوصف</label>
-  <textarea></textarea>
-
-  <label class="form-label extra-label-margin-2">الملحقات</label>
-
-  <div class="checkbox-section">
-    <div class="checkbox-block first-checkbox-block">
-      <div class="checkbox">
-        <input type="checkbox"  name="" value="">
-        <label for="stairs"> درج داخلي</label>
-      </div>
-
-      <div class="checkbox">
-        <input type="checkbox"  name="" value="">
-        <label for="maid"> غرفة خادمة</label>
-      </div>
-
-      <div class="checkbox">
-        <input type="checkbox"  name="" value="">
-        <label for="launge"> فناء داخلي</label>
-      </div>
-
-      <div class="checkbox">
-        <input type="checkbox"  name="" value="">
-        <label for="evaluater"> مصعد</label>
-      </div>
-
-      <div class="checkbox">
-        <input type="checkbox"  name="" value="">
-        <label for="chairs"> ديوانية خارجية</label>
-      </div>
-
-      <div class="checkbox">
-        <input type="checkbox"  name="" value="">
-        <label for="water"> توافر خدمات المياه</label>
-      </div>
      
-    </div>
-
-    <div class="checkbox-block second-checkbox-block">
-      <div class="checkbox">
-        <input type="checkbox"  name="" value="">
-        <label for="driver"> غرفة سائق</label>
-      </div>
-
-      <div class="checkbox">
-        <input type="checkbox"  name="" value="">
-        <label for="upstairs"> ملحق علوي</label>
-      </div>
-
-      <div class="checkbox">
-        <input type="checkbox"  name="" value="">
-        <label for="car"> مدخل سيارة</label>
-      </div>
-
-      <div class="checkbox">
-        <input type="checkbox"  name="" value="">
-        <label for="tent"> بيت شعر / خيمة</label>
-      </div>
-
-      <div class="checkbox">
-        <input type="checkbox"  name="" value="">
-        <label for="pool"> مسبح</label>
-      </div>
-
-      <div class="checkbox">
-        <input type="checkbox"  name="" value="">
-        <label for="electricity"> توافر خدمات الكهرباء</label>
-      </div>
-     
-    </div>
+   
 
 
-  </div>
+ 
 
-  <button type="submit" class="submit-adv">إضافة إعلان</button>
+ 
 
 </form>
   </div>
