@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>المسوق الإفتراضي / تسجيل دخول</title>
+    <title>المسوق الإفتراضي / تسجيل حساب جديد</title>
     <link rel="icon" href="images/fav.png" type="image/png" />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/line-awesome.min.css" />
@@ -82,6 +82,7 @@
              
               <a href="index-en.html" class="language-anchor">English</a>
             </div>
+          
          
         </div>
 
@@ -194,7 +195,7 @@
       </li>
    
       <li class="active item-23">
-        <span class="bread-current">تسجيل دخول</span>
+        <span class="bread-current">تسجيل حساب جديد</span>
       </li>
     </ol>
  
@@ -205,32 +206,136 @@
 
  <div class="add-adv-block">
  
-  <div class="add-adv-form">
+  <div class="add-adv-form register-form">
 <h2 class="form-title">
- تسجيل دخول
+تسجيل حساب جديد
 </h2>
+<form>
+  <label class="form-label extra-label-margin-2">نوع العضوية</label>
+  <div class="checkbox-section mb15">
+    <div class="radio-button-block first-checkbox-block">
+     
+      <div class="checkbox">
+        <input type="radio" id="owner" name="type" value="مالك" checked>
+        <label for="owner"> مالك</label>
+        </div>
+        <div class="checkbox">
+          <input type="radio" id="searcher"  name="type" value="باحث عن عقار">
+        <label for="searcher"> باحث عن عقار</label>
+        </div>
+        
+        <div class="checkbox">
+          <input type="radio" id="semsar"  name="type" value="وسيط عقاري">
+        <label for="semsar"> وسيط عقاري</label>
+        </div>
 
-  
-  <input type="text" placeholder="اسم المستخدم" class="sign-inputs">
+        <div class="checkbox">
+          <input type="radio" id="company"  name="type" value="شركة تطوير عقاري">
+        <label for="company"> شركة تطوير عقاري</label>
+        </div>
 
+     
+
+     
+
+     
+    </div>
+
+    <div class="radio-button-block second-checkbox-block">
+      <div class="checkbox">
+        <input type="radio" id="wakeel"  name="type" value="وكيل أو مفوض">
+      <label for="wakeel"> وكيل أو مفوض</label>
+      </div>
+
+      <div class="checkbox">
+        <input type="radio" id="sales"  name="type" value="مسوق عقاري">
+      <label for="sales"> مسوق عقاري</label>
+      </div>
+
+      <div class="checkbox">
+        <input type="radio" id="office"  name="type" value="مكتب عقاري">
+      <label for="office"> مكتب عقاري</label>
+      </div>
+
+      <div class="checkbox">
+        <input type="radio" id="rate"  name="type" value="شركة تقييم عقاري">
+      <label for="rate"> شركة تقييم عقاري</label>
+      </div>
+
+    
+
+    
+     
+    </div>
+
+
+  </div>
+
+  <label class="form-label">اسم المستخدم<span class="label-span">"إنجليزي فقط" </span></label>
+  <input type="text">
+
+  <label class="form-label">الإسم بالكامل</label>
+  <input type="text">
+  <label class="form-label">رقم الجوال</label>
+ 
   <div class="map-input">
-    <input type="password" class="my-input" placeholder="كلمة المرور">
+    <input type="text" class="price-input"  placeholder="5xxxxxxxx">
+   <span class="country">
+    966+
+    <img src="images/flag-ar.png" alt="flag">
+    </span>
+  </div>
+
+  <label class="form-label">البريد الإلكتروني</label>
+  <input type="email">
+
+  <label class="form-label">الدولة</label>
+  <div class="select-wrapper-2">
+    <select>
+      <option>اختر من القائمة</option>
+      <option>اختر من القائمة</option>
+      <option>اختر من القائمة</option>
+      <option>اختر من القائمة</option>
+    </select>
+
+  </div>
+
+  <label class="form-label">المدينة</label>
+  <div class="select-wrapper-2">
+    <select>
+      <option>اختر من القائمة</option>
+      <option>اختر من القائمة</option>
+      <option>اختر من القائمة</option>
+      <option>اختر من القائمة</option>
+    </select>
+
+  </div>
+
+  <label class="form-label">كلمة المرور</label>
+  <div class="map-input">
+    <input type="password" class="my-input">
    <button>
-    <i class="las la-eye-slash"></i>
+    <i class="las la-eye"></i>
     </button>
   </div>
 
-  <a href="forget-password.html" class="forget-pass">هل نسيت كلمة المرور ؟</a>
+  <label class="form-label">تأكيد كلمة المرور</label>
+  <div class="map-input">
+    <input type="password" class="my-input">
+   <button>
+    <i class="las la-eye"></i>
+    </button>
+  </div>
+
+  <label class="form-label">نبذة شخصية</label>
+  <textarea></textarea>
   
-  <button  class="submit-adv">دخول</button>
-  <a href="register.html">
-    <button  class="submit-adv register-btn">تسجيل حساب جديد</button>
-  </a>
- 
-  
+  <div class="checkbox checkbox-block">
+    <input type="checkbox"  name="" value="">
+    <label for="accept" class="accept"> لقد قرأت وأوافق على <a href="#">الشروط والأحكام</a></label>
+  </div>
 
-     
-   
+
 
 
  
@@ -238,6 +343,12 @@
  
 
 
+
+ 
+
+  <button type="submit" class="submit-adv">تسجيل</button>
+
+</form>
   </div>
  
  </div>
